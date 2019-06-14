@@ -3,6 +3,7 @@
     <head>
         <title>file input image and alv</title>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width">
         <script src="code.js"></script>
         <link rel="stylesheet" href="style.css">
     </head>
@@ -11,20 +12,21 @@
             <h1>alvFinder</h1>
         </div>
         
-        <div id = "form">
+        <div class ="form" id = "form">
                 <form action="">
 
-                    <input type="file" onchange="previewFile()"><br>
-                    <img ="" height="200" alt="Image preview...">
+                    <input class="input" type="file" onchange="previewFile()" >
+                    <br>
+                    <img ="" class ="image" height="200" alt="Image preview...">
                                                               
-                    <input id="alv24" type="number" step="0.1" placeholder=" alv 24%">
+                    <input class ="input" id="alv24" type="number" step="0.1" placeholder=" alv 24%">
                   
-                    <input id ="alv14" type="number" step="0.1" placeholder=" alv 14%">
+                    <input class ="input" id ="alv14" type="number" step="0.1" placeholder=" alv 14%">
                    
-                    <input id ="alv10" type="number" step="0.1" placeholder=" alv 10%">
+                    <input class ="input" id ="alv10" type="number" step="0.1" placeholder=" alv 10%">
 
-                    <input id="alv0" type="number" step="0.1" placeholder=" alv 0%">
-                    <input type="submit" value="Submit">
+                    <input class="input" id="alv0" type="number" step="0.1" placeholder=" alv 0%">
+                    <input class = "btn" type="submit" value="Submit">
 
                   </form> 
         </div>
